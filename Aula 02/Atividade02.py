@@ -17,6 +17,6 @@ def chooseCoin(price: Price):
     if price.coin == "BRL": return "R$"
     return "$"
 
-print(f"{chooseCoin(price1)} {price1.value:.2f} == {chooseCoin(price2)} {price2.value:.2f}: {price1 == price2}")
-print(f"{chooseCoin(price1)} {price1.value:.2f} == {chooseCoin(price3)} {price3.value:.2f}: {price1 == price3}")
-print(f"{chooseCoin(price1)} {price1.value:.2f} == {chooseCoin(price4)} {price4.value:.2f}: {price1 == price4}")
+print(f"{chooseCoin(price1)} {price1.value:.2f}(price1) == {chooseCoin(price2)} {price2.value:.2f}(price2): {price1 == price2}")
+print(f"{chooseCoin(price1)} {price1.value:.2f}(price1) == {chooseCoin(price3)} {price3.value:.2f}(price3): {price1 == price3}")
+print(f"{chooseCoin(price1)} {price1.value:.2f}(price1) == {chooseCoin(price4)} {price4.value:.2f}(price4): {price1 == price4}")
