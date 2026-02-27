@@ -23,7 +23,7 @@ class RequestService:
 
 class FreeRequestService(RequestService):
   def calculateShipping(self, shipping: Shipping):
-    print('Free Resquest doesn\'t have Shipping Price')
+    print(f'Free Resquest doesn\'t have Shipping Price (R$ {shipping.value})')
     return 0
 
 class Payment:
